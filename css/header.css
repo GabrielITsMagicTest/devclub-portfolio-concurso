@@ -1,0 +1,113 @@
+:root {
+    --bg: #0d0d0f;
+    --text-hover: #39D353;
+    --bg-button: #39D353;
+    --text-button: black;
+    --text: white;
+    --time-button: 0.7s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial,Helvetica,sans-serif;
+
+}
+
+body {
+    background: #050505;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    background: linear-gradient(to bottom, rgba(20, 20, 22, 0.6), rgba(10, 10, 12, 0.85));
+    border-bottom: 1px solid var(--border);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.7s ease;
+    letter-spacing: 0.2px;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    color: var(--text-hover);
+}
+
+.area-aluno {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.area-aluno div {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    height: 100%;
+    background-color: transparent;
+    transition: var(--time-button) ease;
+}
+
+.area-aluno div:hover {
+    background-color: white;
+}
+
+
+.area-aluno div p {
+    color: #39D353;
+    transition: color var(--time-button) ease;
+}
+
+.area-aluno div:hover p {
+    color: black;
+}
+
+.area-aluno div svg {
+    height: 25px;
+}
+
+.area-aluno button {
+    background-color: #8532F2;
+    padding: 15px;
+    color: var(--text);
+    border-radius: 15px;
+    border: none;
+    height: 100%;
+}
+
+.area-aluno button:hover {
+    animation: swing 2s ease;
+}
+
+@keyframes swing {
+    20% { transform: rotate(15deg); }
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(5deg); }
+    80% { transform: rotate(-3deg); }
+    100% { transform: rotate(0deg); }
+}

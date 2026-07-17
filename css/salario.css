@@ -1,0 +1,98 @@
+.salarybox-section{
+
+    background:#050607;
+    padding:90px 20px;
+
+}
+
+.salarybox-title{
+
+    color:#fff;
+    text-align:center;
+    font-size:56px;
+    font-weight:800;
+    margin-bottom:15px;
+
+}
+
+.salarybox-subtitle{
+
+    color:#9d9d9d;
+    text-align:center;
+    font-size:20px;
+    margin-bottom:60px;
+
+}
+
+
+.salarybox-card{
+    
+    max-width:980px;
+    margin:auto;
+    background:#141414;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:24px;
+    padding:55px;
+    box-shadow:0 30px 80px rgba(0,0,0,.45);
+    
+}
+.salarybox-card h3 {
+    text-align: center;
+    margin-bottom: 43px;
+    font-size: 56px;
+}
+
+.salarybox-row{
+
+    display:grid;
+    grid-template-columns:170px 1fr;
+    gap:30px;
+    align-items:center;
+    margin-bottom:55px;
+
+}
+
+.salarybox-level{
+
+    color:#fff;
+    font-size:34px;
+    font-weight:700;
+
+}
+
+.salarybox-bar{
+
+    width:100%;
+    height:16px;
+    background:#242424;
+    border-radius:50px;
+    overflow:hidden;
+
+}
+
+.salarybox-fill{
+
+    height:100%;
+    border-radius:50px;
+
+}
+
+.salarybox-barra{
+
+    background:#39D353;
+
+}
+
+.salarybox-value{
+
+    margin-top:12px;
+    color:#d4d4d4;
+    font-size:20px;
+
+}
+
+.salarybox-value strong{
+
+    color:#fff;
+
+}

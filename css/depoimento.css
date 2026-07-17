@@ -1,0 +1,161 @@
+.depoimentos {
+    width: 100%;
+    padding: 120px 7%;
+    background: #050608;
+    color: white;
+}
+
+.titulo {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.titulo span {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 50px;
+    background: rgba(57, 211, 83, .1);
+    border: 1px solid rgba(57, 211, 83, .3);
+    color: #39D353;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.titulo h2 {
+    font-size: 58px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.titulo strong {
+    color: #8532F2;
+}
+
+.titulo p {
+    color: #b5b5b5;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.depoimento-video {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    background: #101010;
+    border: 1px solid rgba(255, 255, 255, .06);
+    border-radius: 30px;
+    padding: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.texto {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.texto h3 {
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.autor {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+}
+
+.autor img {
+
+    width: 70px;
+
+    height: 70px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    border: 2px solid #39D353;
+}
+
+.autor h4 {
+
+    font-size: 22px;
+
+    margin-bottom: 6px;
+}
+
+.autor span {
+
+    color: #999;
+}
+
+.video {
+
+    width: 430px;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+.video img {
+
+    width: 100%;
+
+    border-radius: 25px;
+
+    display: block;
+
+    border: 1px solid rgba(255, 255, 255, .08);
+}
+
+.video button {
+
+    position: absolute;
+
+    left: 50%;
+
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 90px;
+
+    height: 90px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #39D353;
+
+    color: white;
+
+    font-size: 34px;
+
+    cursor: pointer;
+
+    transition: .35s;
+
+    box-shadow: 0 0 35px rgba(57, 211, 83, .45);
+}
+
+.video button:hover {
+
+    transform: translate(-50%, -50%) scale(1.1);
+
+    background: #8532F2;
+
+    box-shadow: 0 0 40px rgba(133, 50, 242, .45);
+}
